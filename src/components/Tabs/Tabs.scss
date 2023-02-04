@@ -1,0 +1,43 @@
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    .tabs-list {
+        list-style: none;
+        padding-left: 0;
+
+        .tab-item {
+            display: inline-block;
+            padding-right: 15px;
+            font-size: 18px;
+            font-weight: 650;
+            color: #8c8c8c;
+            position: relative;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .active-tabs {
+            color: #000;
+        }
+    }
+
+    .avatar-img {
+        width: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .active-tabs::before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -5px;
+        left: 40%;
+        transform: translateX(-50%);
+        width: 80%;
+        height: 3px;
+        background: #000;
+        border-radius: 2px;
+    }
+}

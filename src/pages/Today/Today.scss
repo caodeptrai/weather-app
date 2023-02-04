@@ -1,0 +1,51 @@
+.item-container {
+    height: 200px;
+    background-color: #fff;
+    border-radius: 4px;
+
+    .item-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .item-content-sunset {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .item-data-sunset {
+        padding-left: 8px;
+    }
+
+    .item-title {
+        padding-left: 4px;
+        padding-top: 4px;
+        font-weight: 400;
+        color: #8c8c8c;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .icon-yeallow {
+        color: #faad14;
+        font-size: 32px;
+        padding-bottom: 8px;
+    }
+
+    .icon-blue {
+        color: #1890ff;
+        font-size: 32px;
+        padding-bottom: 8px;
+    }
+
+    .item-data {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        color: #595959;
+        font-family: 'Open Sans', sans-serif;
+    }
+}

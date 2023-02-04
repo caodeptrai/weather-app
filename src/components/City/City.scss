@@ -1,0 +1,47 @@
+.city {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+
+    .city-image {
+        padding-left: 10px;
+        width: 180px;
+    }
+    .city-name {
+        padding-bottom: 8px;
+    }
+    .city-temperature {
+        padding-bottom: 8px;
+    }
+    .city-time {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .city-cloud {
+        font-size: 16px;
+        line-height: 1.5;
+        color: rgb(155, 149, 149);
+    }
+
+    .city-wrap-banner {
+        margin-top: 8px;
+        position: relative;
+
+        .city-image-banner {
+            width: 100%;
+            height: 160px;
+            border-radius: 4px;
+        }
+
+        .city-title-banner {
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 42%;
+            bottom: 0;
+            margin: auto;
+            text-align: center;
+            color: #fff;
+        }
+    }
+}

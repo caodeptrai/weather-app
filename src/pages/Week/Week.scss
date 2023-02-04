@@ -1,0 +1,82 @@
+.week-item-container {
+    height: 130px;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    .week-item-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .week-item-content-sunset {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .week-item-data-sunset {
+        padding-left: 8px;
+    }
+
+    .week-item-title {
+        padding-left: 4px;
+        padding-top: 4px;
+        font-weight: 400;
+        color: #8c8c8c;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .icon-weather {
+        width: 56px;
+    }
+
+    .week-item-data {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        color: #595959;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+.week-info {
+    background-color: #fff;
+    height: 185px;
+    margin-top: 36px;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.week-info-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 6px;
+    padding-top: 8px;
+
+    .week-info-heading {
+        font-size: 20px;
+        font-weight: 400;
+        color: #706e6e;
+        margin-bottom: 14px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .week-info-item {
+        font-size: 16px;
+        color: #8c8c8c;
+        line-height: 1.5;
+        padding-bottom: 8px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .week-info-mt2 {
+        margin-top: 36px;
+    }
+}
