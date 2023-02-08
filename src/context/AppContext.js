@@ -3,7 +3,7 @@ import getFormattedWeatherData from '../services/WeatherService';
 
 export const AppContext = React.createContext();
 const AppProvider = ({ children }) => {
-    const [query, setQuery] = useState({ q: 'ha noi' });
+    const [query, setQuery] = useState({ q: 'thanh hoa' });
     const [weather, setWeather] = useState(null);
 
     useEffect(() => {
